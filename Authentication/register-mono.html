@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Register</title>
+</head>
+
+<body class="bg-gray-200">
+    <div class="flex justify-center items-center h-screen">
+        <div class="flex justify-center flex-col bg-white rounded-xl shadow-xl w-2/6 px-20 py-8">
+            <div class="text-center text-4xl font-bold">
+                <span>
+                    Register
+                </span>
+            </div>
+
+            <div class="mt-12 flex items-center w-full space-x-8">
+
+                <input type="text"
+                    class="text-gray-600 p-2 my-1 w-1/2 border-b-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent"
+                    placeholder="first name">
+
+                <input type="text"
+                    class="text-gray-600 p-2 my-1 w-1/2 border-b-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent"
+                    placeholder="last name">
+
+            </div>
+
+            <div class="mt-4">
+                <!-- <label for="username" class="text-md my-2 text-gray-500 font-semibold">Username</label> -->
+                <input type="email"
+                    class="text-gray-600 p-2 my-1 w-full border-b-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent"
+                    placeholder="email" required>
+            </div>
+
+            <div class="mt-4">
+                <!-- <label for="username" class="text-md my-2 text-gray-500 font-semibold">Username</label> -->
+                <input type="text"
+                    class="text-gray-600 p-2 my-1 w-full border-b-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent"
+                    placeholder="username">
+            </div>
+
+            <div class="mt-4 flex flex-col">
+                <div class="flex items-center w-full space-x-8">
+
+                    <input type="password"
+                        class="text-gray-600 p-2 my-1 w-1/2 border-b-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent"
+                        placeholder="password">
+
+                    <input type="password"
+                        class="text-gray-600 p-2 my-1 w-1/2 border-b-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent"
+                        placeholder="retype password">
+
+                </div>
+                <div class="mt-4">
+                    <span class="text-gray-700 text-md">Password must contain</span>
+                    <ul class="list-inside mt-2 bg-rose-200 space-y-1">
+                        <li class="border-l-4 border-green-500 px-2">
+                            At least 6 characters
+                        </li>
+                        <li class="border-l-4 border-green-500 px-2">
+                            At least one capital and one small letter
+                        </li>
+                        <li class="border-l-4 border-red-500 px-2">
+                            <span class="text-red-600">At least 1 number</span>
+                        </li>
+                        <li class="border-l-4 border-green-500 px-2">
+                            At least 1 special character (!-.@#)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-4 py-2">
+                <button
+                    class="bg-gray-700 rounded-sm shadow-sm text-gray-200 font-bold py-3 uppercase w-full">Register</button>
+
+                <div class="mt-2">
+                    <span class="text-gray-500">
+                        By clicking register you accept our <a class="underline text-blue-400">terms & contitions</a>.
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
