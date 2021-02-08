@@ -9,6 +9,7 @@ This is a collection of tailwind pages all made by me. Free to use no credits re
 
 #### Navigation
 - Sidebar
+- Navbar (top)
 
 ### Coming soon (?)
 - Navbar Top
@@ -19,4 +20,5 @@ This is a collection of tailwind pages all made by me. Free to use no credits re
     * login-mono
     * register-mono
     * sidebar
+    * navbar-top
 
